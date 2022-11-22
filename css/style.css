@@ -67,6 +67,25 @@ footer{
     width:100%;
 }
 
+.bulb{
+    margin:0 auto;
+    width:110px;
+}
+#bulb_image{
+    display:block;
+    text-align:center;
+    margin-bottom:4px;
+}
+
+#btn_on, #btn_off{
+    background-color: #aaa;
+    color:white;
+    border:none;
+    text-align: center;
+    padding:8px 10px;
+    width:50px;
+}
+
 @media (max-width:700px){
     .row{
         flex-direction: column;
